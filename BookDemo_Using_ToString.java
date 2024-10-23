@@ -44,6 +44,7 @@ class BookDemo{
 
         for (int i = 0; i<bookNum; i++){
         bookArray[i].getDetails();
+         System.out.println(bookArray[i]);   
         }
     }
 }
