@@ -92,7 +92,8 @@ class CurAcct extends Account {
 public class Bank {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        
+        System.out.println("Aprameya S J USN:1BM23CS048"); 
         System.out.println("Enter account type (1 for Savings, 2 for Current): ");
         int choice = scanner.nextInt();
         scanner.nextLine();
